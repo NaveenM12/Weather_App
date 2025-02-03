@@ -15,12 +15,15 @@
         </div>
 
         <div class="weather-icon">
-            <img src="assets/partly-cloudy.png">
+            <img src="assets/cloudy.png">
         </div>
 
         <div class="temperature">
-            <h2>58°F</h2>
-            <p>Partly Cloudy</p>
+            <h2 id="temperature">58°F</h2>
+            <div class="temp-toggle">
+                <p>Partly Cloudy</p>
+                <button id="unit-toggle">°C</button>
+            </div>
         </div>
 
         <div class="timeline">
@@ -44,7 +47,7 @@
                 <p>Precipitation</p>
             </div>
             <div class="card">
-                <h3>4.5 mph</h3>
+                <h3 id="wind-speed">4.5 mph</h3>
                 <p>Wind</p>
             </div>
             <div class="card uv-index">
@@ -58,5 +61,6 @@
         </div>
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
